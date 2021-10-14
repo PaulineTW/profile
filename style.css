@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+body {
+    background-color: rgb(240, 240, 240);
+    color: rgb(10, 10, 10);
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 24px;
+    line-height: normal;
+}
+
+h1 {
+    color: rgb(25, 25, 25);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: normal;
+}
+
+h2 {
+    color: rgb(25, 25, 25);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: normal;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #5C6F68;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 65px;
+}
+
+a:hover {
+    color :black
+}
+
+p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container {
+    width: 700px;  
+    margin: 0 auto; 
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn-green {
+    background-color: #5C6F68;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    .container {
+      width: 500px;
+    } 
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .container {
+   width: 200px;
+    }
+    
+    h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
